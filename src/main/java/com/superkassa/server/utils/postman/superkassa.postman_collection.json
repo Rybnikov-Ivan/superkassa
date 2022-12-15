@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "0a94fc87-189c-41f4-9fbb-f6fbf86ebb30",
+		"name": "superkassa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15522230"
+	},
+	"item": [
+		{
+			"name": "post modify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"add\": 22\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/modify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"modify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
